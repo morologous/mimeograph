@@ -29,7 +29,8 @@
     "mimeograph": "./bin/mimeograph"
   },
   "directories": {
-    "lib": "./lib"
+    "lib": "./lib",
+    "src": "./src"
   },
   "respository": {
     "type": "git",
