@@ -1,34 +1,55 @@
 {
   "name": "mimeograph",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "CoffeeScript lib for PDF OCR and text extraction.",
-  "keywords": ["node", "pdf", "ocr", "hocr", "coffeescript", "resque", "text extraction", "indexing"],
+  "keywords": [
+    "node",
+    "pdf",
+    "ocr",
+    "hocr",
+    "coffeescript",
+    "resque",
+    "text extraction",
+    "indexing"
+  ],
   "homepage": "https://github.com/steelThread/mimeograph",
   "author": "Sean McDaniel <sean.mcdaniel@me.com>",
   "contributors": [
-    {"name": "Jason Yankus", "email": "jason@yankus.net"},
-    {"name": "Carlos Fernandez", "email": "cfernandez@touzon.com"}
+    {
+      "name": "Jason Yankus",
+      "email": "jason@yankus.net"
+    },
+    {
+      "name": "Carlos Fernandez",
+      "email": "cfernandez@touzon.com"
+    }
   ],
   "main": "./lib/mimeograph",
-  "bin": { "mimeograph": "./bin/mimeograph" },
-  "directories": { "lib": "./lib" },
+  "bin": {
+    "mimeograph": "./bin/mimeograph"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
   "respository": {
     "type": "git",
     "url": "https://github.com/steelThread/mimeograph.git"
   },
   "dependencies": {
-    "coffee-script" : "1.2.0",
-    "underscore"    : ">= 1.1.6",
-    "colors"        : ">= 0.3.0",
-    "coffee-resque" : ">= 0.1.4",
-    "redisfs"       : ">= 1.0.0",
-    "async"         : ">= 0.1.15",
-    "pkginfo"       : ">= 0.2.3",
-    "xml2js"        : "0.1.14"
+    "coffee-script": "1.2.0",
+    "underscore": ">= 1.1.6",
+    "colors": ">= 0.3.0",
+    "coffee-resque": ">= 0.1.4",
+    "redisfs": ">= 1.0.0",
+    "async": ">= 0.1.15",
+    "pkginfo": ">= 0.2.3",
+    "xml2js": "0.1.14"
   },
   "devDependencies": {
-    "vows"          : ">= 0.6.1",
-    "redis"         : ">= 0.5.11"
+    "vows": ">= 0.6.1",
+    "redis": ">= 0.5.11"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
